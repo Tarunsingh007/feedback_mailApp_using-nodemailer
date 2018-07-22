@@ -1,0 +1,36 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>{{title}}</title>
+	<link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
+	<link href="/stylesheets/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+  	<center><h4>{{send}}</h4></center>
+    <form class="form-signin" method="post" action="/">
+      <div class="text-center mb-4">
+        <img class="mb-4" src="http://media.idownloadblog.com/wp-content/uploads/2016/09/iOS-9-Mail-app-icon-full-size.jpg" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Mail App</h1>
+        <p>Send mail to anyone from anywhere<a href="https://caniuse.com/#feat=css-placeholder-shown">Works in latest Chrome, Safari, and Firefox.</a></p>
+      </div>
+
+      <div class="form-label-group">
+	      	<label class="label">From: </label></br>
+	        <input type="email"  class="form-control" name="from" placeholder="Email address" required autofocus>
+	      	<label class="label">Subject: </label></br>
+	        <input type="text"  class="form-control"  name="sub" placeholder="Subject" required autofocus>
+	      	<label class="label">Text: </label></br>
+	        <textarea class="form-control"  name="text" placeholder="Text" required autofocus></textarea>
+	      	<label class="label">Html: </label></br>
+	        <input type="number" class="form-control"  name="phone" placeholder="phone"  autofocus>
+      </div><br>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Send Mail</button>
+
+  </body>
+</html>
